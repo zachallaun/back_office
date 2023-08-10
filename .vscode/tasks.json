@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "group": "test",
+      "type": "mix",
+      "task": "Run tests",
+      "presentation": {
+        "focus": true,
+      },
+    },
+    {
+      "group": "test",
+      "type": "mix",
+      "task": "Run tests in current file",
+      "presentation": {
+        "focus": true,
+      },
+    },
+    {
+      "group": "test",
+      "type": "mix",
+      "task": "Run test at cursor",
+      "presentation": {
+        "focus": true,
+      },
+    },
+  ],
+}

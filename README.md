@@ -1,21 +1,13 @@
 # BackOffice
 
-**TODO: Add description**
+WIP: Admin tools embedded in Livebook.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `back_office` to your list of dependencies in `mix.exs`:
+In Livebook:
 
 ```elixir
-def deps do
-  [
-    {:back_office, "~> 0.1.0"}
-  ]
-end
+Mix.install([
+  {:back_office, github: "zachallaun/back_office"}
+])
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/back_office>.
-
